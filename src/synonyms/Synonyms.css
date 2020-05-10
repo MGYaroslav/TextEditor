@@ -1,0 +1,30 @@
+ul {
+  list-style: decimal;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.synonyms-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f0f0;
+}
+
+.synonyms-container li {
+  cursor: pointer;
+}
+
+.synonyms {
+  background-color: #fff;
+  border: 1px solid #e4dede;
+}
+
+.synonyms-title {
+  font-size: 24px;
+  padding: 10px 20px;
+}
